@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Irata Bench** is a competitive, multi-agent resource economy simulation modeled after the classic board game *M.U.L.E.* Four autonomous LLM agents compete over 10–20 rounds to maximize final net worth through resource production (Food, Energy, Crystite), store trading, and peer-to-peer negotiation.
+**Irata Bench** is a competitive, multi-agent resource economy simulation modeled after the classic game *M.U.L.E.* Four autonomous LLM agents compete over 10–20 rounds to maximize final net worth through resource production (Food, Energy, Crystite), store trading, and peer-to-peer negotiation.
 
 Where traditional AI benchmarks test static coding or conversational reasoning, Irata Bench introduces **transaction friction ("Dan Tax")** and **compounding operational penalties (blackouts)**. The benchmark exposes a critical operational risk: **Transaction Paralysis** — where agents articulate sound financial strategies in text, then fail to execute them the moment friction enters the decision.
 
