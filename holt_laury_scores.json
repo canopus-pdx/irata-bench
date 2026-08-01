@@ -1,0 +1,54 @@
+{
+  "gemini-3.6-flash": {
+    "switch_point": 2,
+    "risk_score_0to5": 1,
+    "choices": [
+      "A",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "label": "mildly risk-seeking / risk-neutral",
+    "model_id": "gemini-3.6-flash"
+  },
+  "claude-sonnet-4-6": {
+    "switch_point": 2,
+    "risk_score_0to5": 1,
+    "choices": [
+      "A",
+      "B",
+      "A",
+      "B",
+      "B"
+    ],
+    "label": "mildly risk-seeking / risk-neutral",
+    "model_id": "claude-sonnet-4-6"
+  },
+  "gpt-4o": {
+    "switch_point": 4,
+    "risk_score_0to5": 3,
+    "choices": [
+      "A",
+      "A",
+      "A",
+      "B",
+      "B"
+    ],
+    "label": "risk-neutral (switched at the EV-crossover point)",
+    "model_id": "gpt-4o"
+  },
+  "deepseek-chat": {
+    "switch_point": 2,
+    "risk_score_0to5": 1,
+    "choices": [
+      "A",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "label": "mildly risk-seeking / risk-neutral",
+    "model_id": "deepseek-chat"
+  }
+}
